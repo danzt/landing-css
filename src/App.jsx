@@ -3,11 +3,10 @@ import './App.css'
 
 function App() {
     return (
-        <>
-            <div className="h-screen w-screen bg-gray-100">
-                <Layout/>
-            </div>
-        </>
+        <div className="overflow-hidden bg-gray-200">
+            <Layout />
+        </div>
+
     )
 }
 
